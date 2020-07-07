@@ -20,7 +20,7 @@ namespace EmployeesApi.Controllers
 
         //GET / status
         [HttpGet("status")]
-        public ActionResult GetStatus()
+        public ActionResult<StatusResponse> GetStatus()
         {
 
             //1. TODO: Go check the actual status
@@ -66,5 +66,17 @@ namespace EmployeesApi.Controllers
         }
 
         // 4. Entities
+
+        [HttpPost("games")]
+        public ActionResult AddGame([FromBody] PostGameRequest game)
+        {
+            return Ok($"adding {game.Title} for {game.Platform}");
+        }
     }
+    public class PostGameRequest
+    {
+        public string Title { get; set; }
+        public string Platform { get; set; }
+    }
+
 }

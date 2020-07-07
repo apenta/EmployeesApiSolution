@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesApi", "EmployeesApi\EmployeesApi.csproj", "{B3A53495-41A3-4036-9916-35241ACEC56C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesApi", "EmployeesApi\EmployeesApi.csproj", "{B3A53495-41A3-4036-9916-35241ACEC56C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesApiIntegrationTests", "EmployeesApiIntegrationTests\EmployeesApiIntegrationTests.csproj", "{32253AA9-D226-4979-9D84-32EF45C5D6CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B3A53495-41A3-4036-9916-35241ACEC56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3A53495-41A3-4036-9916-35241ACEC56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3A53495-41A3-4036-9916-35241ACEC56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32253AA9-D226-4979-9D84-32EF45C5D6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32253AA9-D226-4979-9D84-32EF45C5D6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32253AA9-D226-4979-9D84-32EF45C5D6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32253AA9-D226-4979-9D84-32EF45C5D6CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
